@@ -17,6 +17,10 @@ public class Driver {
 
     }
 
+    public static WebDriver getDriverReference(){
+        return driver;
+    }
+
     public static WebDriver getDriver(){
 
         if(driver == null){

@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: Smartbear order placing feature
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 431.712 s <<< FAILURE! - in Smartbear order placing feature
+SmartBear order process(Smartbear order placing feature)  Time elapsed: 314.339 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.009
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akylbeks-MacBook-Pro.local', ip: '192.168.1.131', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_k/f35cd2b56zl...}, goog:chromeOptions: {debuggerAddress: localhost:61115}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f3859b0a53bd7d27d0622bfeb0653140
+
+SmartBear order process(Smartbear order placing feature)  Time elapsed: 41.717 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@id='ctl00_MainContent_fmwOrder_ddlProduct']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akylbeks-MacBook-Pro.local', ip: '192.168.1.131', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_k/f35cd2b56zl...}, goog:chromeOptions: {debuggerAddress: localhost:61368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 64992c3ad7dc8b72b27f6cd5c33aa2dc
+*** Element info: {Using=xpath, value=//select[@id='ctl00_MainContent_fmwOrder_ddlProduct']}
+

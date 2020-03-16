@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: Search functionality
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 334.19 s <<< FAILURE! - in Search functionality
+Wikipedia Search Functionality Title Verification(Search functionality)  Time elapsed: 76.297 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-input']/input"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akylbeks-MacBook-Pro.local', ip: '192.168.1.131', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_k/f35cd2b56zl...}, goog:chromeOptions: {debuggerAddress: localhost:61114}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c21c409a964d19253b260b02d979132e
+*** Element info: {Using=xpath, value=//div[@class='search-input']/input}
+
+Wikipedia Search Functionality Header Verification(Search functionality)  Time elapsed: 53.599 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-input']/input"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akylbeks-MacBook-Pro.local', ip: '192.168.1.131', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_k/f35cd2b56zl...}, goog:chromeOptions: {debuggerAddress: localhost:61200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 639061fe7a5d7c94a962d6469d5c2c76
+*** Element info: {Using=xpath, value=//div[@class='search-input']/input}
+
+Wikipedia Search Functionality Image Header Verification(Search functionality)  Time elapsed: 63.917 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-input']/input"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akylbeks-MacBook-Pro.local', ip: '192.168.1.131', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_k/f35cd2b56zl...}, goog:chromeOptions: {debuggerAddress: localhost:61251}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3eb2c6b0caa19614eb13913a419d0b41
+*** Element info: {Using=xpath, value=//div[@class='search-input']/input}
+

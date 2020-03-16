@@ -1,7 +1,8 @@
-package utilities;
+package Log4j;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import utilities.Log;
 
 
 public class TestLogs {
@@ -14,6 +15,9 @@ public class TestLogs {
         logger.info("on dzon.com");
         System.out.println("click on login button");
         logger.warn("login int to app");
+
+        Log.info("starting the test");
+        Log.warn("login in to amazon");
 
     }
 

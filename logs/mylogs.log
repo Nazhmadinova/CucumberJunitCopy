@@ -1,2 +1,52 @@
-[INFO ] 2020-03-05 19:11:37.046 [main] TestLogs - on dzon.com
-[WARN ] 2020-03-05 19:11:37.060 [main] TestLogs - login int to app
+[INFO ] 2020-03-05 19:38:33.170 [main] Log - starting the test
+[WARN ] 2020-03-05 19:38:33.171 [main] Log - login in to amazon
+[INFO ] 2020-03-05 19:47:55.011 [main] Log - scenario start point: Header comparison
+[INFO ] 2020-03-05 19:48:13.412 [main] Log - user on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-05 19:48:17.136 [main] Log - user on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-05 19:48:17.299 [main] Log - header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-05 19:48:17.300 [main] Log - Comparing two header
+[INFO ] 2020-03-05 19:51:33.963 [main] Log - starting the test
+[WARN ] 2020-03-05 19:51:33.964 [main] Log - login in to amazon
+[INFO ] 2020-03-05 19:52:56.843 [main] Log - starting the test
+[WARN ] 2020-03-05 19:52:56.843 [main] Log - login in to amazon
+[INFO ] 2020-03-05 20:03:43.022 [main] Log - scenario start point: Header comparison
+[INFO ] 2020-03-05 20:03:48.969 [main] Log - user on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-05 20:03:49.049 [main] Log - header taken: Gradle vs. Maven
+[INFO ] 2020-03-05 20:03:50.122 [main] Log - user on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-05 20:03:50.158 [main] Log - header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-05 20:03:50.159 [main] Log - Comparing two header
+[INFO ] 2020-03-05 20:59:06.505 [main] Log - scenario start point: Header comparison
+[INFO ] 2020-03-05 20:59:12.343 [main] Log - user on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-05 20:59:12.416 [main] Log - header taken: Gradle vs. Maven
+[INFO ] 2020-03-05 20:59:13.497 [main] Log - user on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-05 20:59:13.529 [main] Log - header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-05 20:59:13.530 [main] Log - Comparing two header
+[INFO ] 2020-03-07 14:02:02.152 [pool-1-thread-1] Log - scenario start point: Google title verification
+[INFO ] 2020-03-07 14:02:02.191 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:02:02.287 [pool-1-thread-1] Log - scenario start point: Wikipedia Search Functionality Title Verification
+[INFO ] 2020-03-07 14:03:00.903 [pool-1-thread-1] Log - scenario start point: Google title verification after searching a term
+[INFO ] 2020-03-07 14:03:17.248 [pool-1-thread-1] Log - scenario start point: Wikipedia Search Functionality Header Verification
+[INFO ] 2020-03-07 14:04:10.847 [pool-1-thread-1] Log - scenario start point: Wikipedia Search Functionality Image Header Verification
+[INFO ] 2020-03-07 14:05:14.766 [pool-1-thread-1] Log - scenario start point: Wikipedia Search Functionality Image Header Verification
+[INFO ] 2020-03-07 14:07:15.246 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:07:56.966 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:08:08.168 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:08:19.756 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:08:28.618 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:08:55.616 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:09:02.109 [pool-1-thread-1] Log - scenario start point: SmartBear order process
+[INFO ] 2020-03-07 14:09:12.615 [pool-1-thread-1] Log - scenario start point: As a user I should be able to login using authenticated test data
+[INFO ] 2020-03-07 14:09:17.776 [pool-1-thread-1] Log - scenario start point: When user enters correct username and incorrect password user should see error message
+[INFO ] 2020-03-07 14:38:35.235 [main] Log - scenario start point: Header comparison
+[INFO ] 2020-03-07 14:39:10.180 [main] Log - user on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-07 14:39:10.225 [main] Log - header taken: Gradle vs. Maven
+[INFO ] 2020-03-07 14:39:12.015 [main] Log - user on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-07 14:39:12.046 [main] Log - header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-07 14:39:12.046 [main] Log - Comparing two header
+[INFO ] 2020-03-07 14:42:43.219 [main] Log - scenario start point: Header comparison
+[INFO ] 2020-03-07 14:42:55.964 [main] Log - user on: https://dzone.com/articles/gradle-vs-maven
+[INFO ] 2020-03-07 14:42:56.200 [main] Log - header taken: Gradle vs. Maven
+[INFO ] 2020-03-07 14:42:58.322 [main] Log - user on: https://dzone.com/articles/api-security-weekly-issue-71
+[INFO ] 2020-03-07 14:42:58.370 [main] Log - header 2 is taken: API Security Weekly: Issue #71
+[WARN ] 2020-03-07 14:42:58.370 [main] Log - Comparing two header
+[INFO ] 2020-03-07 14:46:28.806 [main] Log - scenario start point: Google title verification after searching a term

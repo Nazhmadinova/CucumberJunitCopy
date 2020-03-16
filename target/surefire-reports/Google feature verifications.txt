@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Google feature verifications
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 129.258 s <<< FAILURE! - in Google feature verifications
+Google title verification(Google feature verifications)  Time elapsed: 60.185 s  <<< FAILURE!
+java.lang.AssertionError: Title does not contain expected value!
+
+Google title verification after searching a term(Google feature verifications)  Time elapsed: 69.07 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Akylbeks-MacBook-Pro.local', ip: '192.168.1.131', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/_k/f35cd2b56zl...}, goog:chromeOptions: {debuggerAddress: localhost:61178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d11be0d4f40c5aada059f45d5efcd545
+*** Element info: {Using=name, value=q}
+

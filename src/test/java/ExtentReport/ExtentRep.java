@@ -1,11 +1,11 @@
-package ExtendReport;
+package ExtentReport;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtendRep {
+public class ExtentRep {
 
     public static void main(String[] args) {
 
